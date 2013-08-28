@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 gem 'rails', '3.2.13'
 gem 'sqlite3'
@@ -41,3 +41,5 @@ group :test do
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
 end
+gem 'rubber'
+gem 'open4'
