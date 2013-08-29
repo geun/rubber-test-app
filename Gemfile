@@ -6,6 +6,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
+  gem 'therubyracer', :platform => :ruby
 end
 gem 'jquery-rails'
 gem 'bootstrap-sass'
@@ -41,5 +42,11 @@ group :test do
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
 end
+
 gem 'rubber'
 gem 'open4'
+gem 'sidekiq'
+gem 'slim'
+gem 'gelf'
+gem 'graylog2_exceptions', :git => 'git://github.com/wr0ngway/graylog2_exceptions.git'
+gem 'graylog2-resque'
